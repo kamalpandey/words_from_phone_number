@@ -45,5 +45,5 @@ These instructions will get you a copy of the project up and running on your loc
   - Get all dependencies: `bundle install`
 
 ## Execution
-  - Run the program: `ruby lib/words_from_phone_number/conversion.rb`
+  - Run the program: `ruby lib/benchmark.rb`
   - Run the tests: `rspec spec --format documentation`
