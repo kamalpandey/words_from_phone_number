@@ -1,9 +1,10 @@
 # frozen_string_literal: true
 
+require_relative '../lib/words_from_phone_number/conversion.rb'
 describe Conversion do
   let(:phone1) { '6686787825' }
 
-  let!(:result1) do
+  let(:result1) do
     [%w[noun struck],
      %w[onto struck],
      %w[motor truck],
