@@ -72,12 +72,3 @@ class Conversion
 
   attr_accessor :number_key_mapping, :dictionary, :phone_number, :final_words
 end
-
-puts 'Please enter the 10 digit mobile number :'
-puts phone_number = '6686787825' # gets.chomp
-start_time = Time.now
-object = Conversion.new phone_number
-object.generate_words
-finish_time = Time.now
-difference = finish_time - start_time
-puts difference
